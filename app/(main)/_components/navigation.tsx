@@ -115,7 +115,7 @@ const Navigation = () => {
         {
             resetWidth();
         }
-    }, [isMobile, resetWidth]);
+    }, [isMobile]);
 
     useEffect(() => {
         if (isMobile)
